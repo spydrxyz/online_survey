@@ -1,4 +1,3 @@
-from django.views import generic
 from django.shortcuts import render
 
 
@@ -8,3 +7,7 @@ def index(request):
 
 def surveylist(request):
     return render(request, 'os_app/surveylist.html')
+
+
+def studentauth(request):
+    return render(request, 'os_app/studentauth.html')
