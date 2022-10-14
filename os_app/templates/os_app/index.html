@@ -1,7 +1,21 @@
 {% extends 'os_app/BASE.html' %}
 
-{% block content %}
-<section>
+{% block title %}
+Online Survey
+{% endblock title %}
 
+{% block content %}
+<section style="background-image: linear-gradient(to bottom, #ffffff, #ffffff, #cfd7eb, #0d6efd);">
+    <div class="container">
+        <div class="row vh-100">
+            <div class="col-md-6 col-12 m-auto text-center">
+                <h1 class="h1 mb-5 text-primary">Welcome to Online Survey</h1>
+                <br class="mb-5">
+                <a class="btn btn-lg btn-primary mb-5" href="#">Start Survey</a>
+                <br>
+                <a class="btn btn-outline-primary mb-5" href="#">Admin Login</a>
+            </div>
+        </div>
+    </div>
 </section>
 {% endblock content %}
