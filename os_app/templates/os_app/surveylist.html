@@ -1,0 +1,49 @@
+{% extends 'os_app/BASE.html' %}
+
+{% block title %}
+Survey List
+{% endblock title %}
+
+{% block content %}
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 m-auto text-center">
+                <h1 class="h1 mt-5">Survey List</h1>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Survey Name</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">101</th>
+                            <td>Math-101</td>
+                            <td>
+                                <a class="btn btn-sm btn-outline-primary" href="#">Start Survey</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">101</th>
+                            <td>CSE-201</td>
+                            <td>
+                                <a class="btn btn-sm btn-outline-primary" href="#">Start Survey</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">101</th>
+                            <td>ECO-401</td>
+                            <td>
+                                <a class="btn btn-sm btn-outline-primary" href="#">Start Survey</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}
