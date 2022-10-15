@@ -15,3 +15,7 @@ def studentauth(request):
 
 def survey(request):
     return render(request, 'os_app/survey.html')
+
+
+def surveyend(request):
+    return render(request, 'os_app/surveyend.html')
