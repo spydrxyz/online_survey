@@ -1,0 +1,84 @@
+{% extends 'os_app/BASE.html' %}
+
+{% block title %}
+Survey
+{% endblock title %}
+
+{% block content %}
+<section>
+    <div class="container">
+        <div class="row vh-100 overflow-auto">
+            <div class="col-md-6 col-12 mt-5 mx-auto">
+                <h1 class="h2 mb-5 text-primary">Survey Name</h1>
+                <form>
+                    <div class="row">
+                        <div class="col-12">
+                            <ol>
+                                <li class="mb-2">
+                                    <h5>It's a sample question one</h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            Quastion Answer A
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault2" checked>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            Quastion Answer B
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault3">
+                                        <label class="form-check-label" for="flexRadioDefault3">
+                                            Quastion Answer C
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault4" checked>
+                                        <label class="form-check-label" for="flexRadioDefault4">
+                                            Quastion Answer D
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="mb-2">
+                                    <h5>It's a sample question two</h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flex" id="flex1">
+                                        <label class="form-check-label" for="flex1">
+                                            Quastion Answer A
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flex" id="flex2" checked>
+                                        <label class="form-check-label" for="flex2">
+                                            Quastion Answer B
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flex" id="flex3">
+                                        <label class="form-check-label" for="flex3">
+                                            Quastion Answer C
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flex" id="flex4" checked>
+                                        <label class="form-check-label" for="flex4">
+                                            Quastion Answer D
+                                        </label>
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary mt-3" href="/survey">Submit</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}

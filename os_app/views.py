@@ -11,3 +11,7 @@ def surveylist(request):
 
 def studentauth(request):
     return render(request, 'os_app/studentauth.html')
+
+
+def survey(request):
+    return render(request, 'os_app/survey.html')
